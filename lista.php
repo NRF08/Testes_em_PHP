@@ -1,9 +1,5 @@
 <?php
 
-function cabecalho () {
-    include "cabecalho.php";
-};
-
 // Essa lista qunado é criada é númerada automáticamente. 
 $lista = array('Leonardo', 'Michelangelo', 'Donatelo' , 'Zafael');
 $lista[] = 'Mano doido';
@@ -20,5 +16,6 @@ $alunos ['aluno1'] = array('nome'=> 'Leonardo', 'telefone'=> '4002-8922');
 
 echo "vetor lista:";
 var_dump($alunos);
+
 
 ?>
